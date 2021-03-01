@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T02:39:39.753Z" agent="5.0 (Windows)" etag="YvCzx-KDdjOSx4PvuMh-" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-01T09:33:22.430Z" agent="5.0 (Windows)" etag="ZVJiwtTR3pLULE_LcqS0" version="14.4.2" type="github">
   <diagram id="qZjwHc3WSDLpgnZpSFku" name="第 1 页">
-    <mxGraphModel dx="1422" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,13 @@
             <mxPoint x="790" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VQN_di5XNYVQZKUm2q7j-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VQN_di5XNYVQZKUm2q7j-7" target="VQN_di5XNYVQZKUm2q7j-27">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="VQN_di5XNYVQZKUm2q7j-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VQN_di5XNYVQZKUm2q7j-7" target="VQN_di5XNYVQZKUm2q7j-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="280" />
+              <mxPoint x="740" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VQN_di5XNYVQZKUm2q7j-7" value="插入数据到mongo，第一阶段、第二阶段的状态都为待处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="250" width="120" height="60" as="geometry" />
@@ -77,6 +82,9 @@
         <mxCell id="VQN_di5XNYVQZKUm2q7j-17" value="执行流程流转" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="570" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VQN_di5XNYVQZKUm2q7j-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VQN_di5XNYVQZKUm2q7j-19" target="VQN_di5XNYVQZKUm2q7j-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VQN_di5XNYVQZKUm2q7j-19" value="修改mongo第一阶段为处理完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="570" width="120" height="60" as="geometry" />
         </mxCell>
@@ -95,14 +103,23 @@
         <mxCell id="VQN_di5XNYVQZKUm2q7j-24" value="修改mongo第二阶段为处理完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VQN_di5XNYVQZKUm2q7j-27" value="画外音：是否存在未处理完成的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="150" width="210" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="VQN_di5XNYVQZKUm2q7j-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VQN_di5XNYVQZKUm2q7j-29" target="VQN_di5XNYVQZKUm2q7j-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VQN_di5XNYVQZKUm2q7j-29" value="每月限制接口次数+1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQN_di5XNYVQZKUm2q7j-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQN_di5XNYVQZKUm2q7j-31" target="VQN_di5XNYVQZKUm2q7j-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VQN_di5XNYVQZKUm2q7j-31" value="发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQN_di5XNYVQZKUm2q7j-33" value="MQ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="370" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VQN_di5XNYVQZKUm2q7j-36" value="MQ消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
