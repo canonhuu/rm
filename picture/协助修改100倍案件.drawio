@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:57:22.485Z" agent="5.0 (Windows)" version="14.4.4" etag="aIH6d81d3k_LuFYIWzFo" type="github"><diagram id="2aao6s5FrQBSc6j1XHA0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-08T10:04:37.035Z" agent="5.0 (Windows)" etag="IYPlaZgQk3VEIslQHd2g" version="14.4.4" type="github">
+  <diagram id="2aao6s5FrQBSc6j1XHA0" name="第 1 页">
+    <mxGraphModel dx="1108" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gshKzYGQNFyMOPGnbcJn-1" target="gshKzYGQNFyMOPGnbcJn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gshKzYGQNFyMOPGnbcJn-1" target="gshKzYGQNFyMOPGnbcJn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-1" value="&lt;div&gt;立案时间是否为空 或者&lt;/div&gt;&lt;div&gt;是否1月1号后立案&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-2" value="直接mark_status | 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-4" value="新案件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="150" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gshKzYGQNFyMOPGnbcJn-5" target="gshKzYGQNFyMOPGnbcJn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-5" value="冻结计划，得到历史支出金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-7" value="旧案件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="270" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gshKzYGQNFyMOPGnbcJn-8" target="gshKzYGQNFyMOPGnbcJn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-8" value="保存历史支出金额，最高互助金，互助标准...置空" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gshKzYGQNFyMOPGnbcJn-10" value="清空答题表，疑点表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
