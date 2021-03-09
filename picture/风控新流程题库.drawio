@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T07:14:36.926Z" agent="5.0 (Windows)" version="14.4.4" etag="PwCDFudFZZOZiTfb5P9b" type="github"><diagram id="JpojyH9XZch32aoOdD4A">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:39:34.435Z" agent="5.0 (Windows)" etag="MidAGGWmmuPZQ_E2vvPD" version="14.4.4" type="github">
+  <diagram id="JpojyH9XZch32aoOdD4A" name="第 1 页">
+    <mxGraphModel dx="1108" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-1" target="duR6MPcf760Q3V5oF0Qm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-1" value="题库配置rule_paper,question,options" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-2" target="duR6MPcf760Q3V5oF0Qm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-2" value="事件信息配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-14" target="duR6MPcf760Q3V5oF0Qm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.493;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-3" target="duR6MPcf760Q3V5oF0Qm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-14" target="duR6MPcf760Q3V5oF0Qm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-3" target="duR6MPcf760Q3V5oF0Qm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-3" value="展示在前端的题库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-6" value="糅合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-7" value="保存rule_answer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-9" value="答题保存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-10" value="&lt;div&gt;画外音：不同的计划，不同的年份，题库不同，&lt;/div&gt;&lt;div&gt;应该总共有6套题库。但是如果旧案件旧题库新页面的话，现在系统有十几套套题题库，&lt;/div&gt;&lt;div&gt;需要把这些也配一个前端题库&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="duR6MPcf760Q3V5oF0Qm-12" target="duR6MPcf760Q3V5oF0Qm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-12" value="保存detail、info表的最高互助金、确诊时间、ICD10等信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-14" value="计算最高互助金" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-16" value="画外音：不再根据是否缴费判断是否跳转流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="440" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-18" value="&lt;div&gt;0. excel给的就不是一个题库！例如问题“本次申请是否经过三甲医院明确确诊并填写具体的疾病名称”，&lt;/div&gt;&lt;div&gt;如果选了是，则需要填写icd10。按道理说题库题目选了是不需要额外填写东西的；&lt;/div&gt;&lt;div&gt;但反过来，如果不把它当成题库题目，选了某选项，又会造成撤案&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 是旧案件旧题库旧页面，还是旧案件旧题库新页面？&lt;/div&gt;&lt;div&gt;2. 目前有一些限制：【复审-已审批】流程及以后不可更改事件信息；少儿呼吸道只能选择不收费&lt;/div&gt;&lt;div&gt;3.原先修改事件信息会保存历史记录，且是隐藏备注；原先保存做题会保存历史记录；现在二合一了该如何处理？&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="545" width="610" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-19" value="&lt;div&gt;记录：&lt;/div&gt;&lt;div&gt;1. 用户是否触发不能加入的条件？ 这一类型的题目是告知，其他都是规则&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="535" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-20" value="后端如何返回套题详情，糅合题目的配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-21" value="保存接口，前端如何传参" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-22" value="填写过信息，第二次进来，如何展示填写过的值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duR6MPcf760Q3V5oF0Qm-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/customicondesignoffice2/128/FAQ.png" vertex="1" parent="1">
+          <mxGeometry x="320" y="832" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
