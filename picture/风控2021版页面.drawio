@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T07:04:29.296Z" agent="5.0 (Windows)" version="14.4.5" etag="ioRnXDNgLo2O4hKz_B26" type="github"><diagram id="tNfufQ1iNmTB8dBX_Z1D">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-11T02:28:11.871Z" agent="5.0 (Windows)" etag="1TJIdXlV_yRsxFCQqRMU" version="14.4.5" type="github">
+  <diagram id="tNfufQ1iNmTB8dBX_Z1D" name="第 1 页">
+    <mxGraphModel dx="1108" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwavJMaWbxxaLGNkcfbu-1" target="rwavJMaWbxxaLGNkcfbu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwavJMaWbxxaLGNkcfbu-1" target="rwavJMaWbxxaLGNkcfbu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-1" value="将那些需要套题答案和事件信息两个协助才能确定的属性（最高互助金，互助标准），与传入参数（发病时间，确诊时间...），一同写到UpdateAidInfoReqDto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwavJMaWbxxaLGNkcfbu-2" target="rwavJMaWbxxaLGNkcfbu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-2" value="保存做题，疑点，历史记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwavJMaWbxxaLGNkcfbu-4" target="rwavJMaWbxxaLGNkcfbu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-4" value="保存case_detail填入的东西" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-6" value="将UpdateAidInfoReqDto保存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwavJMaWbxxaLGNkcfbu-10" target="rwavJMaWbxxaLGNkcfbu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-10" value="保存混合做题接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwavJMaWbxxaLGNkcfbu-12" value="rule_paper需要修改expire_time，让这个需求上线后，都用2021版套题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="400" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
