@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T06:19:36.781Z" agent="5.0 (Windows)" etag="XcwDo2V4nIHoKbNY9iHr" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T07:18:04.842Z" agent="5.0 (Windows)" etag="H8nS4mmbbJkR5z8CTi-L" version="14.4.7" type="github">
   <diagram id="tNfufQ1iNmTB8dBX_Z1D" name="第 1 页">
-    <mxGraphModel dx="1108" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,8 +88,20 @@
         <mxCell id="bs-0sXIdYob6VWZTuJvX-8" value="修改事件信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bs-0sXIdYob6VWZTuJvX-10" value="重新计算最高互助金，修改少儿呼吸道三字段，" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bs-0sXIdYob6VWZTuJvX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bs-0sXIdYob6VWZTuJvX-10" target="bs-0sXIdYob6VWZTuJvX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-0sXIdYob6VWZTuJvX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bs-0sXIdYob6VWZTuJvX-10" target="bs-0sXIdYob6VWZTuJvX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-0sXIdYob6VWZTuJvX-10" value="重新计算最高互助金，修改少儿呼吸道三字段" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-0sXIdYob6VWZTuJvX-12" value="如果不为通过，还需要把最高互助金，互助标准，倍数，mark_staus置空或0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="830" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bs-0sXIdYob6VWZTuJvX-14" value="保存历史处理记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
