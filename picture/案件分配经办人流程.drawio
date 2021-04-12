@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T03:49:35.502Z" agent="5.0 (Windows)" etag="Dxoo9otqqFGgyZ-r69Ti" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-12T03:58:55.563Z" agent="5.0 (Windows)" etag="3pVLmV5MpsqO4xI0Xtoz" version="14.5.10" type="github">
   <diagram id="9b7uLELmdbzUbWwN5cIj" name="第 1 页">
     <mxGraphModel dx="3342" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="c0HFAmHQshkEXfB8irg5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c0HFAmHQshkEXfB8irg5-8" target="c0HFAmHQshkEXfB8irg5-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c0HFAmHQshkEXfB8irg5-8" value="先删除已经待分配流程已经分配了经办人的记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="c0HFAmHQshkEXfB8irg5-8" value="先删除传入flowCode已经分配了经办人的记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="590" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c0HFAmHQshkEXfB8irg5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c0HFAmHQshkEXfB8irg5-13" target="c0HFAmHQshkEXfB8irg5-15">
@@ -83,7 +83,7 @@
         <mxCell id="c0HFAmHQshkEXfB8irg5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="c0HFAmHQshkEXfB8irg5-23" target="c0HFAmHQshkEXfB8irg5-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c0HFAmHQshkEXfB8irg5-23" value="&lt;br&gt;添加子任务&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="c0HFAmHQshkEXfB8irg5-23" value="添加子任务" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="590" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c0HFAmHQshkEXfB8irg5-25" value="&lt;div&gt;画外音：保证同一案件，一个流程只有一条经办人记录。&lt;/div&gt;&lt;div&gt;如果分配时，需要回查历史经办人，则需要把查询条件is_deleted = true去掉&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;目前这种实现并不优雅，因为按理来说is_deleted=true是一个删除了的数据，不应该再被查询出来了。&lt;/div&gt;&lt;div&gt;所以在20年12月份的风控流程大改版需求中预备作如下优化：经办人记录表增加一个type字段，用于标识该条记录状态，比如 已完成/未完成/未完成但被中转/被手动修改经办人...之类的状态&lt;br&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
