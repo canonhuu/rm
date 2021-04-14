@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T09:17:29.845Z" agent="5.0 (Windows)" etag="A6PaVTBlGKu8putANg3t" version="14.5.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-14T06:54:43.841Z" agent="5.0 (Windows)" etag="H9IMDe8cSHszWwR8P1x3" version="14.5.10" type="github" pages="5">
   <diagram id="QJ-M9dAqX3-2-o2Iueh3" name="风控系统流程说明">
     <mxGraphModel dx="1108" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -204,6 +204,132 @@
         </mxCell>
         <mxCell id="aDZnevUfQnT6sELxorld-7" value="保存历史处理记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aDZnevUfQnT6sELxorld-1">
           <mxGeometry x="540" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nJHSMSYADZnwhhIe0vmW" name="案件分配经办人流程">
+    <mxGraphModel dx="3028" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-0" />
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-1" parent="0-X7uaBDCu-Lg3Pp3MMj-0" />
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-360" y="350" width="450" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-1150" y="890" width="790" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-5" target="0-X7uaBDCu-Lg3Pp3MMj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-5" value="业管手动分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-1090" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-7" target="0-X7uaBDCu-Lg3Pp3MMj-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-820" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-7" value="MQ消费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-880" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-9" target="0-X7uaBDCu-Lg3Pp3MMj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-9" value="定时任务分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-680" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-12" target="0-X7uaBDCu-Lg3Pp3MMj-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-12" target="0-X7uaBDCu-Lg3Pp3MMj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-12" value="如果非业管手动分配，则根据分配规则获取经办人" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-985" y="540" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-15" target="0-X7uaBDCu-Lg3Pp3MMj-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1170" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-15" target="0-X7uaBDCu-Lg3Pp3MMj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-15" value="先删除传入flowCode已经分配了经办人的记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-880" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-17" target="0-X7uaBDCu-Lg3Pp3MMj-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-17" value="是否超过每日分配上限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-860" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-20" target="0-X7uaBDCu-Lg3Pp3MMj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-20" target="0-X7uaBDCu-Lg3Pp3MMj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-20" value="是否强制分配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-860" y="1200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-21" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-810" y="1140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-22" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-1070" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-23" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-940" y="1210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-25" target="0-X7uaBDCu-Lg3Pp3MMj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-25" value="经办人表、历史处理记录表增加记录" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-880" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-27" target="0-X7uaBDCu-Lg3Pp3MMj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-27" value="添加子任务" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-880" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-28" value="&lt;div&gt;画外音：保证同一案件，一个流程只有一条经办人记录。&lt;/div&gt;&lt;div&gt;如果分配时，需要回查历史经办人，则需要把查询条件is_deleted = true去掉&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;目前这种实现并不优雅，因为按理来说is_deleted=true是一个删除了的数据，不应该再被查询出来了。&lt;/div&gt;&lt;div&gt;所以在20年12月份的风控流程大改版需求中预备作如下优化：经办人记录表增加一个type字段，用于标识该条记录状态，比如 已完成/未完成/未完成但被中转/被手动修改经办人...之类的状态&lt;br&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-1680" y="780" width="380" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1" source="0-X7uaBDCu-Lg3Pp3MMj-30" target="0-X7uaBDCu-Lg3Pp3MMj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-30" value="&lt;div&gt;com.dhco.ehuzhu.approve.admin.modules.service.impl.&lt;/div&gt;&lt;div&gt;DispatchCaseService#dispatchCaseFlowOperator()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-985" y="680" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-31" value="循环分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-260" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-32" value="定制分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-260" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-33" value="上限分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-120" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-34" value="最近同角色分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-120" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-35" value="指定流程经办人" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-260" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-36" value="其他" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-260" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-37" value="不分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-120" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-38" value="比例分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-120" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-X7uaBDCu-Lg3Pp3MMj-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;分配规则&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0-X7uaBDCu-Lg3Pp3MMj-1">
+          <mxGeometry x="-170" y="310" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
