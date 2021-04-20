@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T09:51:01.604Z" agent="5.0 (Windows)" etag="t3WlHnHg6b3R18AGfvCi" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T11:43:10.399Z" agent="5.0 (Windows)" etag="Nt56eZlmAJezWU6_ctUa" version="14.6.0" type="github">
   <diagram id="HrRhx5yN_iqk0GomWMN3" name="第 1 页">
-    <mxGraphModel dx="1422" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3342" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,21 +46,6 @@
         <mxCell id="EPZCTNfuwa29dTdAX0f7-14" value="修改处理任务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EPZCTNfuwa29dTdAX0f7-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-16" target="EPZCTNfuwa29dTdAX0f7-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EPZCTNfuwa29dTdAX0f7-16" value="异步处理任务列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EPZCTNfuwa29dTdAX0f7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-17" target="EPZCTNfuwa29dTdAX0f7-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EPZCTNfuwa29dTdAX0f7-17" value="查看最近5条导出记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EPZCTNfuwa29dTdAX0f7-19" value="点击下载" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="790" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EPZCTNfuwa29dTdAX0f7-21" value="定时任务每天凌晨删除前一天的文件夹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="560" width="120" height="60" as="geometry" />
         </mxCell>
@@ -90,6 +75,87 @@
         </mxCell>
         <mxCell id="EPZCTNfuwa29dTdAX0f7-29" value="返回失败报错" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-34" target="EPZCTNfuwa29dTdAX0f7-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-34" value="点击导出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-36" target="EPZCTNfuwa29dTdAX0f7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-36" value="返回成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-38" target="EPZCTNfuwa29dTdAX0f7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-38" value="插入一条异步处理任务，状态为进行中。同时发送一条MQ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-40" target="EPZCTNfuwa29dTdAX0f7-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-40" value="执行基础信息表导出逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-41" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-40" target="EPZCTNfuwa29dTdAX0f7-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1020" as="sourcePoint" />
+            <mxPoint x="240" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-42" value="异步处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="960" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-44" target="EPZCTNfuwa29dTdAX0f7-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-44" value="处理成功，上传excel到cos（按天区分文件夹）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-45" value="修改处理任务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-46" value="定时任务每天凌晨删除前一天的文件夹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-47" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-46" target="EPZCTNfuwa29dTdAX0f7-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1140" as="sourcePoint" />
+            <mxPoint x="350" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-51" target="EPZCTNfuwa29dTdAX0f7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-51" target="EPZCTNfuwa29dTdAX0f7-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-51" target="EPZCTNfuwa29dTdAX0f7-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-51" value="根据唯一id查询数据，判断状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-52" value="前端轮询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="830" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-53" value="点击下载" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-54" value="返回失败报错" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-55" value="&lt;div&gt;1. 建表——异步处理任务表&lt;/div&gt;&lt;div&gt;2. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1205" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-56" target="EPZCTNfuwa29dTdAX0f7-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-56" value="redis锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
