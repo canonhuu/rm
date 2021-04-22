@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T11:59:50.860Z" agent="5.0 (Windows)" etag="AiZiT6xmy17r2mBCz682" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T10:16:54.683Z" agent="5.0 (Windows)" etag="RpD5VQ3GHIZl1Lk1nRro" version="14.6.0" type="github">
   <diagram id="HrRhx5yN_iqk0GomWMN3" name="第 1 页">
-    <mxGraphModel dx="3028" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3342" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,8 +148,8 @@
         <mxCell id="EPZCTNfuwa29dTdAX0f7-54" value="返回失败报错" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EPZCTNfuwa29dTdAX0f7-55" value="&lt;div&gt;1. 建表——异步处理任务表&lt;/div&gt;&lt;div&gt;2. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1205" width="160" height="30" as="geometry" />
+        <mxCell id="EPZCTNfuwa29dTdAX0f7-55" value="&lt;div align=&quot;left&quot;&gt;1. 建表——异步处理任务表&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 增加报表导出任务接口，发送MQ消息&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. 查询报表导出任务状态接口&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4. MQ消费导出数据，并上传到cos&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5. 定时任务查询状态为0的，且时间超过5分钟的，重发一条MQ消息&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;6. 定时任务每天凌晨删除前一天的文件夹&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1230" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EPZCTNfuwa29dTdAX0f7-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPZCTNfuwa29dTdAX0f7-56" target="EPZCTNfuwa29dTdAX0f7-38">
           <mxGeometry relative="1" as="geometry" />
